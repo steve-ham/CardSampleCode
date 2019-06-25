@@ -34,6 +34,7 @@ class CardView: UIView, UIGestureRecognizerDelegate {
             }
             if case .top = cardPosition {
                 scrollView.bounces = true
+                scrollView.showsVerticalScrollIndicator = false
                 scrollView.showsVerticalScrollIndicator = true
             } else {
                 scrollView.bounces = false
@@ -175,7 +176,6 @@ class CardView: UIView, UIGestureRecognizerDelegate {
             let animator = UIViewPropertyAnimator(duration: duration, dampingRatio: 0.8) { [weak self] in
                 guard let self = self else { return }
                 self.topConstraint.constant = self.topConstraintConstant
-                
                 self.parentViewController.view.layoutIfNeeded()
             }
             animator.startAnimation()

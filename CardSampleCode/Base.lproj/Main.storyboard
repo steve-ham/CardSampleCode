@@ -48,6 +48,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="FpN-Q8-Sen" id="rFn-w8-Nua"/>
+                                    <outlet property="delegate" destination="FpN-Q8-Sen" id="0wr-oP-BF0"/>
                                 </connections>
                             </tableView>
                         </subviews>

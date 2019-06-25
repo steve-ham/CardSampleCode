@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListViewController: UIViewController, UITableViewDataSource, ScrollViewContaining {
+class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, ScrollViewContaining {
     
     @IBOutlet private weak var tableView: UITableView!
     
@@ -34,4 +34,7 @@ class ListViewController: UIViewController, UITableViewDataSource, ScrollViewCon
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
