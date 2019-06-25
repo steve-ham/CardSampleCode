@@ -17,27 +17,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nxZ-ZI-YNt">
-                                <rect key="frame" x="0.0" y="94" width="414" height="802"/>
-                                <connections>
-                                    <segue destination="FpN-Q8-Sen" kind="embed" id="vQx-03-Dmy"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="nxZ-ZI-YNt" secondAttribute="bottom" id="Lsl-pz-hkm"/>
-                            <constraint firstItem="nxZ-ZI-YNt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bw1-W5-yQ1"/>
-                            <constraint firstItem="nxZ-ZI-YNt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pj2-An-8xa"/>
-                            <constraint firstItem="nxZ-ZI-YNt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="yGl-O4-cmW"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="containerView" destination="nxZ-ZI-YNt" id="6XV-8H-C1l"/>
-                        <outlet property="topConstraint" destination="yGl-O4-cmW" id="0gt-7L-WrB"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,13 +28,13 @@
         <!--List View Controller-->
         <scene sceneID="FWT-eF-9cg">
             <objects>
-                <viewController id="FpN-Q8-Sen" customClass="ListViewController" customModule="CardSampleCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListViewController" id="FpN-Q8-Sen" customClass="ListViewController" customModule="CardSampleCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kSZ-Qb-aga">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C65-mf-50d">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="802"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="qlY-96-mWo">

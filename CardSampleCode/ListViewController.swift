@@ -8,9 +8,13 @@
 
 import UIKit
 
-class ListViewController: UIViewController, UITableViewDataSource {
+class ListViewController: UIViewController, UITableViewDataSource, ScrollViewContaining {
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
+    
+    var scrollView: UIScrollView {
+        return tableView
+    }
     
     private var strings = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"]
     
