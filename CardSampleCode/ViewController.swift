@@ -51,6 +51,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
     deinit {
         containerView.gestureRecognizers?.forEach(view.removeGestureRecognizer)
+        tableView.gestureRecognizers?.forEach(view.removeGestureRecognizer)
     }
     
     @objc func handlePan(_ recognizer: UIPanGestureRecognizer) {
