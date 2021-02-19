@@ -14,7 +14,6 @@
 		AA08AAEE22BB2637007CCCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA08AAEC22BB2637007CCCEE /* LaunchScreen.storyboard */; };
 		AA08AAF622BB58CD007CCCEE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08AAF522BB58CD007CCCEE /* ListViewController.swift */; };
 		AAFC558822C1BAB6003F3F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC558722C1BAB6003F3F0B /* ViewController.swift */; };
-		AAFC558A22C1D8BF003F3F0B /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC558922C1D8BF003F3F0B /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		AA08AAEF22BB2637007CCCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA08AAF522BB58CD007CCCEE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		AAFC558722C1BAB6003F3F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAFC558922C1D8BF003F3F0B /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 				AA08AAE322BB2636007CCCEE /* AppDelegate.swift */,
 				AAFC558722C1BAB6003F3F0B /* ViewController.swift */,
 				AA08AAE522BB2636007CCCEE /* CardView.swift */,
-				AAFC558922C1D8BF003F3F0B /* MyView.swift */,
 				AA08AAF522BB58CD007CCCEE /* ListViewController.swift */,
 				AA08AAE722BB2636007CCCEE /* Main.storyboard */,
 				AA08AAEA22BB2637007CCCEE /* Assets.xcassets */,
@@ -146,7 +143,6 @@
 			files = (
 				AA08AAE622BB2636007CCCEE /* CardView.swift in Sources */,
 				AA08AAE422BB2636007CCCEE /* AppDelegate.swift in Sources */,
-				AAFC558A22C1D8BF003F3F0B /* MyView.swift in Sources */,
 				AAFC558822C1BAB6003F3F0B /* ViewController.swift in Sources */,
 				AA08AAF622BB58CD007CCCEE /* ListViewController.swift in Sources */,
 			);
